@@ -1,0 +1,12 @@
+[package]
+name = "plushy-greet"
+version = "0.0.1"
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+path = "mod.rs"
+
+[dependencies]
+plushy-plushes = { path = "../plushes", version = "0.0.1" }

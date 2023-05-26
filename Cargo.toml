@@ -1,0 +1,21 @@
+[package]
+name = "plushy"
+version = "0.0.1"
+authors = ["subtly <subtly@users.noreply.github.com>"]
+license = "GPL-3.0-only"
+edition = "2021"
+
+[workspace.package]
+authors = ["subtly <subtly@users.noreply.github.com>"]
+edition = "2021"
+license = "GPL-3.0-only"
+version = "0.0.1"
+
+[dependencies]
+plushy-plushes = { path = "plushes", version = "0.0.1" }
+plushy-greet = { path = "greet", version = "0.0.1" }
+
+[workspace]
+members = [
+    "traits", "plushes", "greet"
+]

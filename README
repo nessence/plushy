@@ -1,0 +1,25 @@
+## Plushes!
+
+Plush is usable and is implemented as an example of a cargo workspace and
+codebase composed of multiple crates that can be published as packages.
+
+`plushy` is intended as a development environment rather than as an application
+and doubles as a demo (and eventually a guide) for implementing a crate.
+
+There is one workspace crate accompanied by three associated crates. The
+workspace crate is the canonical API; though dependent crates can be published
+that are significant improvements over the base crate, the base crate is to
+maintain stability.
+
+plushy:
+Base crate which reexports `plush` and `greet` crates
+
+plushes:
+Provides example `Plush` and `Popple` implementations and re-exports `traits`
+
+traits:
+Types and traits that have a common interface and immutable types and traits
+that provide common information
+
+greet:
+Example
