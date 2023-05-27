@@ -15,7 +15,7 @@ fn main() {
 
 	plush.cuddle();
 
-	let popple = Popple::white();
+	let popple = Popple::blue();
 	popple.greet(&plush);
 	plush.greet(&popple);
 }

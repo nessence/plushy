@@ -1,6 +1,6 @@
 ## Plushes!
 
-Plush is usable and is implemented as an example of a cargo workspace and
+Plush is implemented as a usable example of a cargo workspace and
 codebase composed of multiple crates that can be published as packages.
 
 `plushy` is intended as a development environment rather than as an application
