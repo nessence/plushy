@@ -13,7 +13,15 @@ fn main() {
 	plush.transform();
 	println!("{}", plush.is());
 
-	plush.cuddle();
+	// Change from cuddle to playSound
+	// A Plush can't cuddle ;
+	// if it could, the Popple can't cuddle back.
+	//
+	// What about poking!? Uh, no.
+	// Blink?? also creepy
+	//
+	// TODO: play a sound
+	plush.play_sound();
 
 	let popple = Popple::blue();
 	popple.greet(&plush);
